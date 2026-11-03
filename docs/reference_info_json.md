@@ -450,7 +450,7 @@ Configures the [LED Matrix](features/led_matrix) feature.
             * The default LED flags.
             * Default: `255`
     * `driver` <Badge type="info">String</Badge> <Badge>Required</Badge>
-        * The driver to use. Must be one of `custom`, `is31fl3218`, `is31fl3731`, `is31fl3733`, `is31fl3736`, `is31fl3737`, `is31fl3741`, `is31fl3742a`, `is31fl3743a`, `is31fl3745`, `is31fl3746a`, `snled27351`.
+        * The driver to use. Must be one of `custom`, `is31fl3218`, `is31fl3731`, `is31fl3733`, `is31fl3736`, `is31fl3737`, `is31fl3741`, `is31fl3742a`, `is31fl3743a`, `is31fl3745`, `is31fl3746a`, `snled27351`, `snled27351_spi`.
     * `layout` <Badge type="info">Array: Object</Badge> <Badge>Required</Badge>
         * List of LED configuration dictionaries. Each dictionary contains:
             * `flags` <Badge type="info">Number</Badge> <Badge>Required</Badge>
