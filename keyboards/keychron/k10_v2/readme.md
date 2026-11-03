@@ -1,18 +1,28 @@
 # Keychron K10 V2
 
-A customizable full size 105 key (ISO) wired keyboard.
+A customizable full size wired keyboard, available in ANSI (104 keys), ISO (105 keys) and JIS (108 keys), with RGB or white backlight.
 
 * Keyboard Maintainer: [HengiFettlich](https://github.com/HengiFettlich)
-* Hardware Supported: Keychron K10 V2 (ISO, RGB), wired mode only
+* Hardware Supported: Keychron K10 V2 (ANSI, ISO and JIS; RGB and white backlight), wired mode only
 * Hardware Availability: [Keychron K10 QMK/VIA Wireless Mechanical Keyboard Version 2](https://www.keychron.com/products/keychron-k10-qmk-via-wireless-mechanical-keyboard-version-2)
 
 Make example for this keyboard (after setting up your build environment):
 
+    make keychron/k10_v2/ansi/rgb:default
+    make keychron/k10_v2/ansi/white:default
     make keychron/k10_v2/iso/rgb:default
+    make keychron/k10_v2/iso/white:default
+    make keychron/k10_v2/jis/rgb:default
+    make keychron/k10_v2/jis/white:default
 
 Flashing example for this keyboard:
 
+    make keychron/k10_v2/ansi/rgb:default:flash
+    make keychron/k10_v2/ansi/white:default:flash
     make keychron/k10_v2/iso/rgb:default:flash
+    make keychron/k10_v2/iso/white:default:flash
+    make keychron/k10_v2/jis/rgb:default:flash
+    make keychron/k10_v2/jis/white:default:flash
 
 Bluetooth and 2.4 GHz wireless are not supported by this firmware.
 
